@@ -1,0 +1,11 @@
+spring:
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: guest
+    password: guest
+    virtual-host: /
+  application:
+    name: "rq-delayed-example"
+server:
+  port: 14000
